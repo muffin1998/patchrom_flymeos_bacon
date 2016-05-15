@@ -176,6 +176,8 @@
 
 .field static final TRANSACTION_isIdleForSubscriber:I = 0xd
 
+.field static final TRANSACTION_isImsRegistered:I = 0x6c
+
 .field static final TRANSACTION_isOffhook:I = 0x8
 
 .field static final TRANSACTION_isOffhookForSubscriber:I = 0x9
