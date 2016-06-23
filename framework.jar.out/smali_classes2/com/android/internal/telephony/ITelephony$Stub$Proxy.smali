@@ -1290,7 +1290,7 @@
     .line 2846
     iget-object v3, p0, Lcom/android/internal/telephony/ITelephony$Stub$Proxy;->mRemote:Landroid/os/IBinder;
 
-    const/16 v4, 0x49
+    const/16 v4, 0x48
 
     const/4 v5, 0x0
 
@@ -8925,7 +8925,6 @@
 
     throw v2
 .end method
-
 .method public isImsRegistered()Z
     .locals 6
     .annotation system Ldalvik/annotation/Throws;

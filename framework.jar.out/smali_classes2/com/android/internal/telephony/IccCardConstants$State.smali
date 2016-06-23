@@ -295,7 +295,6 @@
         :pswitch_8
     .end packed-switch
 .end method
-
 .method public static valueOf(Ljava/lang/String;)Lcom/android/internal/telephony/IccCardConstants$State;
     .locals 1
     .param p0, "name"    # Ljava/lang/String;

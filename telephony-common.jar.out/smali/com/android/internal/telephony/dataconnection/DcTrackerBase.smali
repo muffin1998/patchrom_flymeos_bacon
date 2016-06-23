@@ -4131,7 +4131,6 @@
 
     .line 793
     .restart local v2    # "resolver":Landroid/content/ContentResolver;
-	
     const-string v6, "data_roaming"
 
     invoke-static {v2, v6}, Landroid/provider/Settings$Global;->getInt(Landroid/content/ContentResolver;Ljava/lang/String;)I
@@ -7385,7 +7384,6 @@
     const-string v4, "mobile_data"
 
     invoke-static {v3, v4, v0}, Landroid/provider/Settings$Global;->putInt(Landroid/content/ContentResolver;Ljava/lang/String;I)Z
-
     .line 1407
     invoke-virtual {p0}, Lcom/android/internal/telephony/dataconnection/DcTrackerBase;->getDataOnRoamingEnabled()Z
 
@@ -7890,7 +7888,6 @@
     const-string v2, "data_roaming"
 
     invoke-static {v0, v2, v1}, Landroid/provider/Settings$Global;->putInt(Landroid/content/ContentResolver;Ljava/lang/String;I)Z
-
     .line 780
     .end local v0    # "resolver":Landroid/content/ContentResolver;
     :cond_0

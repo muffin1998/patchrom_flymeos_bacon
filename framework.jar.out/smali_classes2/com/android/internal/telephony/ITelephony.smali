@@ -1000,7 +1000,6 @@
         }
     .end annotation
 .end method
-
 .method public abstract isImsRegistered()Z
     .annotation system Ldalvik/annotation/Throws;
         value = {

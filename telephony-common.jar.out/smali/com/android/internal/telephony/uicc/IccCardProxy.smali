@@ -4685,7 +4685,6 @@
 
     throw v0
 .end method
-
 .method public registerForNetworkLocked(Landroid/os/Handler;ILjava/lang/Object;)V
     .locals 0
     .param p1, "h"    # Landroid/os/Handler;

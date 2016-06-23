@@ -132,7 +132,6 @@
     move-result-object v1
 
     invoke-virtual {v0, v1, v2, p0}, Landroid/content/ContentResolver;->registerContentObserver(Landroid/net/Uri;ZLandroid/database/ContentObserver;)V
-
     .line 424
     return-void
 .end method

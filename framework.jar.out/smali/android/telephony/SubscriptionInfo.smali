@@ -139,6 +139,7 @@
     return-void
 .end method
 
+
 # virtual methods
 .method public createIconBitmap(Landroid/content/Context;)Landroid/graphics/Bitmap;
     .locals 14

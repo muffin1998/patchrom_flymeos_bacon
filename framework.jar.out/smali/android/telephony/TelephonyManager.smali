@@ -8495,7 +8495,6 @@
     :cond_0
     return-void
 .end method
-
 .method public isImsRegistered()Z
     .locals 3
 

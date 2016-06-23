@@ -1220,8 +1220,7 @@
     #invoke-interface {v0, v1}, Landroid/database/Cursor;->getInt(I)I
 
     #move-result v15
-	
-	const/16 v15, 0x1
+    const/16 v15, 0x1
 
     .line 384
     .local v15, "status":I
@@ -1238,8 +1237,7 @@
     #invoke-interface {v0, v1}, Landroid/database/Cursor;->getInt(I)I
 
     #move-result v16
-
-	const/16 v16, -0x1
+    const/16 v16, -0x1
 
     .line 388
     .local v16, "nwMode":I

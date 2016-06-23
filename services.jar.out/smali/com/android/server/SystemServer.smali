@@ -2910,9 +2910,8 @@
     invoke-virtual {v4, v5}, Lcom/android/server/SystemServiceManager;->startService(Ljava/lang/Class;)Lcom/android/server/SystemService;
 
     :cond_1c
-	
-	goto/16 :goto_flyme_0
-	
+    goto/16 :goto_flyme_0
+
     if-nez v62, :cond_1d
 
     if-nez v56, :cond_1d

@@ -586,9 +586,9 @@
 
     iput v4, p0, Landroid/net/wifi/WifiConfiguration;->SIMNum:I
 
-    invoke-static/range {p0 .. p0}, Landroid/net/wifi/WifiConfiguration$FlymeInjector;->initFlymeExtraFields(Landroid/net/wifi/WifiConfiguration;)V
-
-    return-void
+	invoke-static/range {p0 .. p0}, Landroid/net/wifi/WifiConfiguration$FlymeInjector;->initFlymeExtraFields(Landroid/net/wifi/WifiConfiguration;)V
+   
+   	return-void
 .end method
 
 .method public constructor <init>(Landroid/net/wifi/WifiConfiguration;)V
