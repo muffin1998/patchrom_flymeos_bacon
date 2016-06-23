@@ -56,8 +56,8 @@ vendor_modify_images := boot
 #-----------------------------------------------------------------------------
 vendor_saved_apps := Bluetooth KeyChain HTMLViewer UserDictionaryProvider BackupRestoreConfirmation \
                      FusedLocation PrintSpooler SharedStorageBackup  ExternalStorageProvider InputDevices \
-	com.qualcomm.location ProxyHandler Shell DefaultContainerService Camera2 shutdownlistener \
-qcrilmsgtunnel MusicFX
+	com.qualcomm.location ProxyHandler Shell DefaultContainerService shutdownlistener \
+qcrilmsgtunnel MusicFX PPPreference QuickBoot TimeService WAPPushManager AntHalService Tag NfcNci Stk
 
 ##############################################################################
 # The value decides which vendor apk you want to modify.
@@ -90,7 +90,7 @@ board_saved_dirs := media
 # You can configure the board system file path which relative to the system directory in the board release.
 # You should add "lib64/libwebviewchromium.so" for 64 bit system.
 #-----------------------------------------------------------------------------
-board_saved_files := lib/libwebviewchromium.so media/bootanimation.zip
+board_saved_files := lib/libwebviewchromium.so bin/bootanimation media/bootanimation.zip bin/shutdownanimation
 
 ##############################################################################
 # The value decides which board system apk you want to remove.
@@ -109,7 +109,7 @@ board_saved_files := lib/libwebviewchromium.so media/bootanimation.zip
 # The command idtoname how to use: first use "apktool d source/system/framework/framework-res.apk other/TMP/framework-res",
 # and then use "idtoname other/TMP/framework-res/res/values/public_master.xml XXXX/smali"(XXXX is the directory where you decode board system apk).
 #-----------------------------------------------------------------------------
-board_modify_apps := SystemUI
+board_modify_apps := SystemUI TeleService
 
 ##############################################################################
 # The value decides which jar you want to modify, when the jar is based on the board framework jar.
