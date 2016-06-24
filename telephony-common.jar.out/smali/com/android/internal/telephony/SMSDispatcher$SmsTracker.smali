@@ -20,6 +20,7 @@
 .field public final mAppInfo:Landroid/content/pm/PackageInfo;
 
 .field public final mData:Ljava/util/HashMap;
+
     .annotation system Ldalvik/annotation/Signature;
         value = {
             "Ljava/util/HashMap",
@@ -50,6 +51,8 @@
 .field public mMessageUri:Landroid/net/Uri;
 
 .field private mPhoneId:I
+
+.field private mSubId:I
 
 .field public mRetryCount:I
 
