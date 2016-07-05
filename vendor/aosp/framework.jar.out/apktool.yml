@@ -1,0 +1,13 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: framework.jar
+compressionType: false
+doNotCompress:
+- dex
+isFrameworkApk: false
+packageInfo: null
+sdkInfo: null
+sharedLibrary: false
+unknownFiles: {}
+usesFramework: null
+version: 2.1.1-04d478-SNAPSHOT
+versionInfo: null
